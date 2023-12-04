@@ -57,7 +57,7 @@
 </br>
 იმ შემთხვევაში თუ მომხმარებელი უკვე დარეგისტრირებულია მას შეუძლია გადავიდეს Sign In ეკრანზე
 
-![screen1](images/registerclick.png)
+![screen1](images/registeredclick.png)
 </br>
 რეგისტრაციის ღილაკზე დაჭერისას ჩვენ:
  - ვამოწმებთ თუ მომხმარებლის მიერ შეყვანილი password და confirm password ემთხვევა ერთმანეთს
