@@ -44,7 +44,7 @@
 
 ## მომხმარებლის რეგისტრაციის ეკრანის ბლოკები
 ![screen1](images/screen1blocks.png)
-![screen1](images/screen1vars.png)
+![screen1](images/screen1variables.png)
 პირველ რიგში შევქმენით რამდენიმე ცვლადი, რომლებშიც ვინახავთ:
  - Firebase პორექტიდან 'წამოღებულ' Api key_ს
  - Sign UP endpoint_ს(მისამართს) [Sign up with email / password](https://firebase.google.com/docs/reference/rest/auth#section-create-email-password)
