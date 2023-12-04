@@ -79,18 +79,17 @@ Web2 კომპონენტის GotText ბლოკში ვამო�
 ![screen1](images/screen2blocks.png)
 
 Firebase_ზე Sign In მოთხოვნა იდენტურია რეგისტრაციის(Sign Up) მოთხოვნის. ერთადერთი განხვავება არის endpoint_ი რომელიც შესაბამის ლინკზე შეგიძლიათ დააკოპიროთ
-https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password
 [Sign in with email / password](https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password)
 
 იმისათვის რომ შევამოწმოთ მომხმარებელი არის თუ არა ვერიფიცირებული შეგვიძლია გავაგზავნოთ კიდევ ერთი მოთხოვნა
-
+[Get user data](https://firebase.google.com/docs/reference/rest/auth#section-get-account-info)
 
 
 ამ მოთხოვნისათვის ჩვენ გვჭირდება მომხმარებლის idToken_ი რომელსაც 'Sign in with email / password' მოთხოვნის პასუხში ვპოულობთ მსგავსად რეგისტრაციის ბლოკებისა
 
 შემდეგ კი ვადგენთ ახალ მოთხოვნას Web2 კომპონენტში
 
-[Get user data](https://firebase.google.com/docs/reference/rest/auth#section-get-account-info)
+
 
 ამ უკანასკნელი მოთხოვნის პასუხი შედარებით კომპლექსურია, თუმცა ჩვენ არ გვჭირდება ამ ინფორმაციის დამუშავება.
 ერთადერთი გვაინტერესებს ეს ტექსტი თუ შეიცავს ("emailVerified": true) ტექსტს.
